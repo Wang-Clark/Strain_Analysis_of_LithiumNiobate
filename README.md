@@ -9,6 +9,8 @@ The Python files, on the other hand, can compute the effects of strain on the ba
 
 ## Eulerian Angle Rotation and Material Strain Analysis
 Details of the Eulerian angle rotation and material strain analysis. The code can be easily modified to include other crystal orientations of lithium niobate or other materials.
+
+Due to GitHub's Markdown not supporting MathJax formula rendering, equations may appear with ghosting. This can be resolved by adding the plugin GitHub with MathJax.
 ### Rotation Matrices
 
 The ZXZ Eulerian angle rotation is used to  transform the anisotropic property tensors (or the coordinate axes system) of LN, passive rotation `A = a1 . a2 . a3`, while conventional active rotation: `B = a3 . a2 . a1`.
