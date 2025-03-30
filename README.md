@@ -1,14 +1,14 @@
 ## Description
 The notebook documents used to derive and calculate the anisotropic strain distribution in piezoelectric material thin films, specifically lithium niobate (TFLN) and GaAs. This part can achieve more precise computational results through multiphysics finite element simulations (solid mechanics + electrostatics). 
 
-The Python files, on the other hand, can compute the effects of strain on the band structure of GaAs based on the strain data obtained from simulations. Detailed explanations are included in both types of documents.
+The Python `.ipynb` file (`Strain_to_EnergyShift.ipynb`) allows users to calculate the effects of strain on the band structure of GaAs based on the simulated strain data, with the results saved in `Strain_induced_EnergyShift.dat`. Detailed explanations are included in documents.
 
 ## Software Requirements
-- **System Requirements:** Capable of running Python 3.12. 
-- **Python Dependencies:** NumPy, SciPy, Matplotlib.
+- **System Requirements:** A system capable of running Python 3.12 and Jupyter Notebook.  
+- **Python Dependencies:** `numpy`, `scipy`, `matplotlib`.
 
 ## Eulerian Angle Rotation and Material Strain Analysis
-Details of the Eulerian angle rotation and material strain analysis. The code can be easily modified to include other crystal orientations of lithium niobate or other materials.
+Details of the Eulerian angle rotation and material strain analysis. The code can be easily modified to include other crystal orientations of lithium niobate or other materials. The derived strain distribution, dependent on crystal orientation angles, can be numerically solved using the file `GaAsStrain_from_LNStresstransfer.ipynb`,, with the output provided in `GaAsStrainfromLNStress_Calculation.dat`. For more precise results, this part can be calculated using multiphysics finite element simulations (combining solid mechanics and electrostatic fields), with the output provided in `GaAsStrain_fromFEM_Simulation.dat`.
 
 Due to GitHub's Markdown not supporting MathJax formula rendering, equations may appear with ghosting. This can be resolved by adding the plugin GitHub with MathJax.
 ### Rotation Matrices
