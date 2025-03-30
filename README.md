@@ -10,7 +10,7 @@ The Python `.ipynb` file (`Strain_to_EnergyShift.ipynb`) allows users to calcula
 ## Eulerian Angle Rotation and Material Strain Analysis
 Details of the Eulerian angle rotation and material strain analysis. The code can be easily modified to include other crystal orientations of lithium niobate or other materials. The derived strain distribution, dependent on crystal orientation angles, can be numerically solved using the file `GaAsStrain_from_LNStresstransfer.ipynb`,, with the output provided in `GaAsStrainfromLNStress_Calculation.dat`. For more precise results, this part can be calculated using multiphysics finite element simulations (combining solid mechanics and electrostatic fields), with the output provided in `GaAsStrain_fromFEM_Simulation.dat`.
 
-Due to GitHub's Markdown not supporting MathJax formula rendering, equations may appear with ghosting. This can be resolved by adding the plugin 'GitHub with MathJax'.
+Due to GitHub's Markdown not supporting MathJax formula rendering, equations may appear with ghosting. This can be resolved by adding the plugin '*GitHub with MathJax*'.
 ### Rotation Matrices
 
 The ZXZ Eulerian angle rotation is used to  transform the anisotropic property tensors (or the coordinate axes system) of LN, passive rotation `A = a1 . a2 . a3`, while conventional active rotation: `B = a3 . a2 . a1`.
